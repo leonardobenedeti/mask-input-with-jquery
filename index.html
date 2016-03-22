@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Exemplo</title>
+		<script src="jquery-2.2.2.min.js" type="text/javascript"></script>
+		<script src="jquery.maskedinput.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<p><input type="text" id="telefone" placeholder="Telefone"></p>
+		<p><input type="text" id="cpf" placeholder="CPF"></p>
+		<p><input type="text" id="data" placeholder="Data"></p>
+	</body>
+	<script type="text/javascript">
+	   
+	   $("#telefone").mask("(99) 99999-9999");
+	   $("#cpf").mask("999.999.999-99");
+	   $("#data").mask("99/99/9999");
+
+	</script>
+</html>
